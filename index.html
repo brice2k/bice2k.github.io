@@ -13,7 +13,34 @@
 				color:#123d08;
 				/* 1 2 3 4 5 6 7 8 9 a b c d e f */
 			}
+/*    SOCIAL STYLES  */
+     .social-link{
+      background: rgba(150,150, 150,0.5);
+      display:inline-block;
+      color: #fff;
+      box-sizing: border-box;
+      font-family: helvetica,arial,sans;
+      padding-top:0.60em;
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1;
+      vertical-align: middle;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 99px;
+      height: 2.5em;
+      width:2.5em;  
 
+     }  
+     .social-list{
+      list-style: none;
+      padding: 0;
+      text-align: center;
+     }
+     .social-list > li{
+      display: inline-block;
+      margin: 0 0.5em;
+     }
       h1{
         font-size: 7vw;
         margin-top: 0;
@@ -22,7 +49,7 @@
         font-size: 2em;
       }
 
-  /*  HERD STYLES     */
+  /*  HEAD STYLES     */
  
   .full-hero{
     background-color: #c7dbfc;
@@ -30,50 +57,72 @@
 /*    width: 75vw;*/
  
   }
-			/* SOCIAL STYLE */
+			/* BIO STYLE */ 
 			.bio-box {
         font-size: 1rem;
-        width:  50%;
-
-				border: 1px solid black;
+        box-sizing:border-box ;
+        width:  23%;
+        float: left;
+        padding: 0 2% 2%;
+        margin: 40px 1% 0;
+				border: 1px solid black; 
 			}
 			/* BIO STYLES  */
       .bio-wrapper{
-        font-size:24px;
-/*        width: 500px;*/
+        max-width: 960px;
+        margin: auto;
+      font-size:24px;
+        overflow: hidden;
       }  
- 
+
+    
 			.bio-box a {
 				color: blue;
+
 			}
+      .bio-box h3{
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        margin: -40px 0 1em;
+      }
+      .bio-box img{
+        width: 100%;
+
+      }
       .bio-copy{
         font-size: 1em;
-      }
+        line-height: 1.5;
+      } 
 			.bio-copy a {
-				color: green;
+				color: green; 
 			} 
+    
 		</style>
 	</head>
 	<body>
     <div class="full-hero hero-home">
-   
+    
   		<h1>I'm an h1</h1>
-  		  <ul>
+  		  <ul class="social-list">
     			<li>
-    				<a href="https://example.com/">Link</a>
+    				<a href="https://example.com/ " class="social-link">Fb</a>
     			</li>  
-    				<a href="https://example.com/">Link</a>
-    			</li>
+          <li>
+    				<a href="https://example.com/" class="social-link">Tw</a>
+    			</li> 
     			<li>
-    				<a href="https://example.com/">Link</a>
+    				<a href="https://example.com/" class="social-link">Gih</a>
       			</li>
     		</ul>
    </div>
 		<h2>I'm an h2</h2>
+
     <div class="bio-wrapper">
 		<div class="bio-box">
+      <img src="https://placekitten.com/g/400/400">
 			<h3>Michael Hartl</h3>
-			<a href="https://twitter.com/mhartl">here</a>
+			<a href="https://twitter.com/mhartl" class="social-link">here</a>
 			<div class="bio-copy">
 				<p>
 					Known for his dazzling charm, rapier wit, and unrivaled humility,
@@ -91,8 +140,9 @@
 			</div>
 		</div>
 		<div class="bio-box">
+      <img src="https://placekitten.com/g/400/400">
 			<h3>Lee Donahoe</h3>
-			<a href="https://twitter.com/leedonahoe">here</a>
+			<a href="https://twitter.com/leedonahoe" class="social-link">here</a>
 
 			<div class="bio-copy">
 				<p>
@@ -104,8 +154,9 @@
 			</div>
 		</div>
 		<div class="bio-box">
+      <img src="https://placekitten.com/g/400/400">
 			<h3>Nick Merwin</h3>
-			<a href="https://twitter.com/nickmerwin">here</a>
+			<a href="https://twitter.com/nickmerwin" class="social-link">here</a>
 
 			<div class="bio-copy">
 				<p>
@@ -117,9 +168,23 @@
 			</div>
 		</div>
 		<div class="bio-box">
+      <img src="https://placekitten.com/g/400/400">
 			<h3>??</h3>
 			<p>The Future</p>
 		</div>
     </div>
+
+    <p>
+       Donec in rutrum enim, a ultrices sapien. Vivamus dui turpis, ultricies a tempus vel, consectetur a nisl. Etiam vel felis eget odio eleifend rutrum ac eu arcu. Nam bibendum nisl ut egestas molestie. Phasellus id dignissim elit. In scelerisque malesuada diam, sit amet tristique metus pharetra vel. Ut tincidunt purus lectus, et malesuada metus aliquet pharetra.<strong>Morbi gravida, neque at scelerisque lobortis</strong> , diam libero accumsan metus, a ornare dui elit in quam. Sed ac blandit erat. Vestibulum bibendum massa libero, ut laoreet dui ultrices vel.
+ </p>
+
+ <p>
+   Donec malesuada erat ac quam congue pharetra. Maecenas rhoncus fermentum mauris, vitae fermentum elit pellentesque et. Morbi quis augue id est elementum imperdiet vel vestibulum urna. Nam auctor mi ligula, in sollicitudin ipsum gravida id. Nullam enim elit, vestibulum ut cursus in, viverra ac dui. Praesent non rutrum lacus, at pharetra est. In rhoncus interdum odio, ut vestibulum nisi semper at
+ </p>
+ <h3>bachground</h3>
+ <p>
+   learn enough to Be dandgerous ia an outgrouth of the <a href="http://railstutorial.org/">Ruby on rails tutoliars</a>
+ ant the <a href="http://www.softcover.io/">softcover publishing platform </a>  this page is the part of the simple site for  <a href="https:// learnenough.com/css-tutorial"> <em>learn enough css and layout to be dangerous</em></a> Mauris nunc ligula, suscipit at velit eget, iaculis rhoncus ipsum. Aliquam venenatis vulputate lacus, placerat consectetur nunc vulputate vel. In eu libero facilisis, euismod est facilisis, aliquet odio
+</p>
 	</body>
 </html>
