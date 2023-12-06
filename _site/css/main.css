@@ -111,8 +111,8 @@ a img {
       font-weight: bold;
       text-transform: uppercase;
     }
-    .nav-links a:hover, 
-    .nav-links a:active{
+    .na a:hover, 
+    .header-nav a:active{
       color: #ed6e2f;
     }
      .header-nav > li:first-child a{
